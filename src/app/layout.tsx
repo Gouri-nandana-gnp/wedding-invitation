@@ -37,11 +37,11 @@ const cormorant = Cormorant_Garamond({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://Sandeep-Ardra.vercel.app"),
-  title: `${COUPLE.groom} & ${COUPLE.bride}`,
-  description: `Our Wedding on ${COUPLE.displayDate}`,
+  title: `${COUPLE.groom} & ${COUPLE.bride} | Wedding Invitation`,
+  description: `Wedding invitation for ${COUPLE.groom} and ${COUPLE.bride} on ${COUPLE.displayDate}.`,
   openGraph: {
-    title: `${COUPLE.groom} & ${COUPLE.bride}`,
-    description: `Our Wedding on ${COUPLE.displayDate}`,
+    title: `${COUPLE.groom} & ${COUPLE.bride} | Wedding Invitation`,
+    description: `Wedding invitation for ${COUPLE.groom} and ${COUPLE.bride} on ${COUPLE.displayDate}.`,
     url: "/",
     siteName: `${COUPLE.groom} & ${COUPLE.bride} Wedding`,
     images: [
