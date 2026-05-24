@@ -36,8 +36,24 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: `${COUPLE.groom} & ${COUPLE.bride} | Wedding Invitation`,
-  description: `Wedding invitation for ${COUPLE.groom} and ${COUPLE.bride} on ${COUPLE.displayDate}.`,
+  metadataBase: new URL("https://Sandeep-Ardra.vercel.app"),
+  title: `${COUPLE.groom} & ${COUPLE.bride}`,
+  description: `Our Wedding on ${COUPLE.displayDate}`,
+  openGraph: {
+    title: `${COUPLE.groom} & ${COUPLE.bride}`,
+    description: `Our Wedding on ${COUPLE.displayDate}`,
+    url: "/",
+    siteName: `${COUPLE.groom} & ${COUPLE.bride} Wedding`,
+    images: [
+      {
+        url: "/images/couple-intro.png",
+        width: 600,
+        height: 800,
+        alt: `${COUPLE.groom} & ${COUPLE.bride}`,
+      },
+    ],
+    type: "website",
+  },
 };
 
 export default function RootLayout({
