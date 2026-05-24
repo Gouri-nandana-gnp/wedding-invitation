@@ -42,22 +42,10 @@ export const VENUE = {
 /** Exactly 5 gallery photos — replace src paths with your own images */
 export const GALLERY_IMAGES = [
   { src: "/images/couple-intro.png", alt: "Sandeep and Ardra — wedding portrait" },
-  {
-    src: "https://images.unsplash.com/photo-1606216794074-735e91aa2c92?w=800&q=80",
-    alt: "Wedding rings",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?w=800&q=80",
-    alt: "Wedding bouquet",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80",
-    alt: "Couple portrait",
-  },
-  {
-    src: "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?w=800&q=80",
-    alt: "Wedding venue",
-  },
+  { src: "/images/gallery-1.jpeg", alt: "Sandeep and Ardra gallery photo 1" },
+  { src: "/images/gallery-2.jpeg", alt: "Sandeep and Ardra gallery photo 2" },
+  { src: "/images/gallery-3.jpeg", alt: "Sandeep and Ardra gallery photo 3" },
+  { src: "/images/gallery-4.jpeg", alt: "Sandeep and Ardra gallery photo 4" },
 ] as const;
 
 export const THANK_YOU = {

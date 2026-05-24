@@ -25,7 +25,7 @@ function PersonBlock({
       <h3 className="font-playfair text-4xl font-bold tracking-[0.04em] text-forest md:text-5xl">
         {name}
       </h3>
-      <p className="mt-4 font-poppins text-[10px] leading-relaxed tracking-[0.15em] text-foreground uppercase">
+      <p className="mt-4 font-poppins text-xs md:text-sm leading-relaxed tracking-[0.15em] text-foreground uppercase">
         {parents}
       </p>
     </motion.div>

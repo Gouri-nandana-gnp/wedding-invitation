@@ -31,12 +31,12 @@ export function WeddingEventsSection() {
           transition={{ duration: 0.7, delay: 0.2 }}
           className="mt-8 space-y-3"
         >
-          <div className="flex items-center justify-center gap-2 font-playfair text-sm text-muted-foreground">
-            <Calendar className="h-4 w-4 shrink-0" strokeWidth={1.5} />
+          <div className="flex items-center justify-center gap-2.5 font-playfair text-base md:text-lg text-muted-foreground">
+            <Calendar className="h-5 w-5 shrink-0" strokeWidth={1.5} />
             <span>{WEDDING_EVENT.date}</span>
           </div>
-          <div className="flex items-center justify-center gap-2 font-playfair text-sm text-muted-foreground">
-            <Clock className="h-4 w-4 shrink-0" strokeWidth={1.5} />
+          <div className="flex items-center justify-center gap-2.5 font-playfair text-base md:text-lg text-muted-foreground">
+            <Clock className="h-5 w-5 shrink-0" strokeWidth={1.5} />
             <span>{WEDDING_EVENT.time}</span>
           </div>
         </motion.div>
@@ -49,15 +49,15 @@ export function WeddingEventsSection() {
           className="mt-8"
         >
           <div className="flex justify-center">
-            <MapPin className="h-4 w-4 text-muted-foreground" strokeWidth={1.5} />
+            <MapPin className="h-5 w-5 text-muted-foreground" strokeWidth={1.5} />
           </div>
-          <p className="font-playfair mt-2 text-sm font-medium tracking-[0.12em] text-muted-foreground uppercase">
+          <p className="font-playfair mt-2 text-lg md:text-xl font-medium tracking-[0.12em] text-muted-foreground uppercase">
             {WEDDING_EVENT.venueName}
           </p>
           {WEDDING_EVENT.venueLines.map((line) => (
             <p
               key={line}
-              className="font-playfair text-sm text-muted-foreground"
+              className="font-playfair text-base md:text-lg text-muted-foreground"
             >
               {line}
             </p>
